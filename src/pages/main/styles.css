@@ -1,0 +1,139 @@
+.product-list{
+	max-width: 700px;
+	margin: 20px auto 0;
+	padding: 0 20px;
+}
+
+.product-list article{
+	background: #fff;
+	border:1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.product-list article p{
+	font-size: 16px;
+	color: #999;
+	margin-top: 5px;
+	line-height: 24px;
+	width: 100%;
+}
+
+.product-list .buttonSearch i{
+	margin:20px 0;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+.product-list article .min100{
+	min-height:100px;
+	text-align: right;
+}
+
+.product-list article img{
+	float: left;
+	margin-right: 10px
+
+}
+
+.product-list input[type=text]{
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.5);
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 16px;
+	margin-bottom: 20px
+}
+
+.product-list input[type=radio]{
+	margin-right: 20px
+}
+
+.product-list .radioButtons label{
+	margin-right: 20px
+}
+
+.product-list .radioButtons{
+	width: 80%;
+	text-align: center;
+	margin:0 auto 20px;
+}
+
+.product-list .buttonSearch{
+	margin-bottom: 20px;
+}
+
+.product-list .buttonSearch button{
+	width: 100%;
+	display: block;
+	padding: 10px 0;
+	border-radius: 5px;
+	background: #da552f;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.product-list article a{
+	height: 42px;
+	border-radius: 5px;
+	border:2px solid #da552f;
+	background-attachment: none;
+	margin-top: 10px;
+	color: #da552f;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	transition:  all 0.2s;
+	display: flex
+}
+
+.product-list article .color1{
+	color: #7986cb;
+}
+
+.product-list article .color2{
+	color:#64b5f6;
+}
+
+.product-list article a:hover{
+	background: #da552f;
+	color: #fff;
+}
+
+.product-list .actions{
+	display: flex;
+	justify-content: space-between;;
+	margin-bottom: 20px;
+}
+
+.product-list .actions button{
+	padding: 10px;
+	border-radius: 5px;
+	border:0;
+	background: #da552f;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.product-list .actions button[disabled]{
+	opacity: 0.5;
+	cursor: default;
+}
+
+.product-list .actions button:hover{
+	background: #da552f;
+	color: #fff
+}
+
+.product-list .actions button[disabled]:hover{
+	opacity: 0.5;
+	cursor: default;
+}
